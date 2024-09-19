@@ -1,1 +1,4 @@
-/* здесь подключите шрифты */
+$primary-font: "Intro", "Arial", sans-serif;
+
+@include font-face("Intro", 400, normal, url("../../fonts/intro-book.woff2") format("woff2"), url("../../fonts/intro-book.woff") format("woff"));
+@include font-face("Intro", 700, normal, url("../../fonts/intro-bold.woff2") format("woff2"), url("../../fonts/intro-bold.woff") format("woff"));

@@ -2,16 +2,130 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Название проекта</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="preload" href="#" type="font/woff2" as="font">
+    <title>Puma Force 1 Shadow: 879876</title>
+    <meta name="description" content="Тестовое задание на позицию Верстальщика (Hybrid)">
+    <!-- Здесь могла бы быть ваша fav-иконка -->
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/index.js" defer></script>
+    <link rel="preload" href="fonts/intro-bold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/intro-book.woff2" type="font/woff2" as="font" crossorigin="anonymous">
   </head>
-  <body class="page__body">
-    <header class="header">Шапка</header>
-    <main>
-      <h1>Страница для старта</h1>
+
+  <body class="body">
+
+    <main class="body__main main">
+      <div class="main__wrapper">
+        <div class="main__product-content-container">
+          <div class="main__main-image-wrapper">
+            <picture>
+              <source type="image/webp" srcset="images/hybrid-main-gallery@1x.webp 1x, images/hybrid-main-gallery@2x.webp 2x" width="520" height="462">
+              <img class="main__main-img" src="images/hybrid-main-gallery@1x.jpg" srcset="images/hybrid-main-gallery@2x.jpg 2x" width="520" height="462" alt="Белые кроссовки с застежками-липучками, подошва телесного цвета.">
+            </picture>
+          </div>
+          <ul class="main__gallery-list">
+            <li class="main__gallery-item">
+              <picture>
+                <source type="image/webp" srcset="images/hybrid-small-gallery@1x.webp 1x, images/hybrid-small-gallery@2x.webp 2x" width="70" height="76">
+                <img class="main__gallery-img" src="images/hybrid-small-gallery@1x.jpg" srcset="images/hybrid-small-gallery@2x.jpg 2x" width="70" height="76" alt="Белые кроссовки с застежками-липучками, подошва телесного цвета.">
+              </picture>
+            </li>
+            <li class="main__gallery-item">
+              <picture>
+                <source type="image/webp" srcset="images/hybrid-small-gallery@1x.webp 1x, images/hybrid-small-gallery@2x.webp 2x" width="70" height="76">
+                <img class="main__gallery-img" src="images/hybrid-small-gallery@1x.jpg" srcset="images/hybrid-small-gallery@2x.jpg 2x" width="70" height="76" alt="Белые кроссовки с застежками-липучками, подошва телесного цвета.">
+              </picture>
+            </li>
+            <li class="main__gallery-item">
+              <picture>
+                <source type="image/webp" srcset="images/hybrid-small-gallery@1x.webp 1x, images/hybrid-small-gallery@2x.webp 2x" width="70" height="76">
+                <img class="main__gallery-img" src="images/hybrid-small-gallery@1x.jpg" srcset="images/hybrid-small-gallery@2x.jpg 2x" width="70" height="76" alt="Белые кроссовки с застежками-липучками, подошва телесного цвета.">
+              </picture>
+            </li>
+            <li class="main__gallery-item">
+              <picture>
+                <source type="image/webp" srcset="images/hybrid-small-gallery@1x.webp 1x, images/hybrid-small-gallery@2x.webp 2x" width="70" height="76">
+                <img class="main__gallery-img" src="images/hybrid-small-gallery@1x.jpg" srcset="images/hybrid-small-gallery@2x.jpg 2x" width="70" height="76" alt="Белые кроссовки с застежками-липучками, подошва телесного цвета.">
+              </picture>
+            </li>
+            <li class="main__gallery-item">
+              <picture>
+                <source type="image/webp" srcset="images/hybrid-small-gallery@1x.webp 1x, images/hybrid-small-gallery@2x.webp 2x" width="70" height="76">
+                <img class="main__gallery-img" src="images/hybrid-small-gallery@1x.jpg" srcset="images/hybrid-small-gallery@2x.jpg 2x" width="70" height="76" alt="Белые кроссовки с застежками-липучками, подошва телесного цвета.">
+              </picture>
+            </li>
+            <li class="main__gallery-item">
+              <picture>
+                <source type="image/webp" srcset="images/hybrid-small-gallery@1x.webp 1x, images/hybrid-small-gallery@2x.webp 2x" width="70" height="76">
+                <img class="main__gallery-img" src="images/hybrid-small-gallery@1x.jpg" srcset="images/hybrid-small-gallery@2x.jpg 2x" width="70" height="76" alt="Белые кроссовки с застежками-липучками, подошва телесного цвета.">
+              </picture>
+            </li>
+          </ul>
+          <div class="main__info-wrapper">
+            <div class="main__info-availability-wrapper">
+              <p class="main__info-article-number-text">Артикул: <span class="main__info-article-number">879876</span></p>
+              <p class="main__info-stock-text">В наличии: <span class="main__info-stock-value">13 </span><span class="main__info-stock-abbreviation">шт</span></p>
+            </div>
+            <h1 class="main__title">Женские кроссовки Puma Force 1 Shadow</h1>
+            <p class="main__info-rating main__info-rating--5"><span class="visually-hidden">Пять из пяти звезд.</span></p>
+            <form class="main__info-form" action="#" method="post">
+              <fieldset class="main__info-fieldset main__info-fieldset--size">
+                <legend class="main__info-fieldset-title">Выберите размер</legend>
+                <div class="main__info-inputs-wrapper">
+                  <label class="main__info-label">
+                    <input class="main__info-size-radio visually-hidden" type="radio" name="size" value="36" checked>
+                    <span class="main__info-size-custom-radio">36</span>
+                  </label>
+                  <label class="main__info-label">
+                    <input class="main__info-size-radio visually-hidden" type="radio" name="size" value="36">
+                    <span class="main__info-size-custom-radio">36</span>
+                  </label>
+                  <label class="main__info-label">
+                    <input class="main__info-size-radio visually-hidden" type="radio" name="size" value="36">
+                    <span class="main__info-size-custom-radio">36</span>
+                  </label>
+                  <label class="main__info-label">
+                    <input class="main__info-size-radio visually-hidden" type="radio" name="size" value="36">
+                    <span class="main__info-size-custom-radio">36</span>
+                  </label>
+                  <label class="main__info-label">
+                    <input class="main__info-size-radio visually-hidden" type="radio" name="size" value="36">
+                    <span class="main__info-size-custom-radio">36</span>
+                  </label>
+                </div>
+              </fieldset>
+              <div class="main__info-price-wrapper">
+                <p class="main__info-product-current-price-text"><span class="main__info-product-current-price-value">19 789</span></p>
+                <p class="main__info-product-old-price-text"><span class="main__info-product-old-price-value">20 578</span></p>
+              </div>
+              <button class="main__info-submit-button" type="submit">в корзину</button>
+            </form>
+          </div>
+          <div class="main__advantages-wrapper">
+            <ul class="main__advantages-list">
+              <li class="main__advantages-item">Бесплатная доставка до двери</li>
+              <li class="main__advantages-item">Оплата заказа при получении</li>
+              <li class="main__advantages-item">Обмен в течении двух недель</li>
+            </ul>
+          </div>
+        </div>
+        <ul class="main__product-description-list">
+          <li class="main__product-description-item">
+            <h2 class="main__product-description-item-title">Описание</h2>
+            <p class="main__product-description-item-text">Кроссовки Nike Blazer Mid '77 Vintage Suede с винтажной подошвой возрождают стиль баскетбольных моделей Nike прошлого, создавая впечатление, что они хранились в шкафу долгие годы.</p>
+          </li>
+          <li class="main__product-description-item">
+            <h2 class="main__product-description-item-title main__product-description-item-title--characteristics">Характеристики</h2>
+            <ul class="main__product-inner-list">
+              <li class="main__product-inner-item">Пол: <span class="main__product-inner-list-value main__product-inner-list-value--gender">Мужской</span></li>
+              <li class="main__product-inner-item">Цвета: <span class="main__product-inner-list-value main__product-inner-list-value--collor">Разноцветный</span></li>
+              <li class="main__product-inner-item">Состав: <span class="main__product-inner-list-value main__product-inner-list-value--composition">Кожа, текстиль, резина</span></li>
+              <li class="main__product-inner-item">Страна: <span class="main__product-inner-list-value main__product-inner-list-value--country">Вьетнам</span></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </main>
+
   </body>
+
 </html>

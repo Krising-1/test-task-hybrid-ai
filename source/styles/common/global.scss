@@ -1,1 +1,14 @@
-/* здесь используйте глобальные селекторы img, body, html и так далее */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+  min-width: 1140px;
+  box-sizing: border-box;
+  color: $text-primary;
+}
